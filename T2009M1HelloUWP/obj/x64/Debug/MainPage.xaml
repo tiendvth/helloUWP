@@ -13,15 +13,15 @@
             <CompositeTransform Rotation="0.244"/>
         </Grid.RenderTransform>
         <TextBlock HorizontalAlignment="Left" Margin="49,59,0,0" Text="Register from" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Height="65" FontSize="36" FontWeight="Bold"/>
-        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Margin="59,159,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="54"                                               FontSize="30"/>
-        <TextBox x:ConnectionId='3' x:Name="txtusername" HorizontalAlignment="Left" Margin="234,159,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30" HighContrastAdjustment="Application"/>
-        <TextBlock x:ConnectionId='4' HorizontalAlignment="Left" Margin="65,294,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="54"                                               FontSize="30"/>
-        <TextBox x:ConnectionId='5' x:Name="txtPassword" HorizontalAlignment="Left" Margin="232,294,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30"/>
-        <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Margin="68,449,0,0" Text="FullName" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="54"                                               FontSize="30"/>
-        <TextBox x:ConnectionId='7' x:Name="txtFullname" HorizontalAlignment="Left" Margin="235,449,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30"/>
-        <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Margin="69,590,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="53"                                               FontSize="30"/>
-        <TextBox x:ConnectionId='9' x:Name="txtEmail" HorizontalAlignment="Left" Margin="236,589,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30"/>
-        <Button x:ConnectionId='10' Content="Submit" Margin="237,714,0,0" VerticalAlignment="Top" Width="175" Height="52" FontSize="30"                    />
+        <TextBlock HorizontalAlignment="Left" Margin="59,159,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="54"  FontSize="30"/>
+        <TextBox x:ConnectionId='2' x:Name="txtusername" HorizontalAlignment="Left" Margin="234,159,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30" HighContrastAdjustment="Application"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65,294,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="54"  FontSize="30"/>
+        <TextBox x:ConnectionId='3' x:Name="txtPassword" HorizontalAlignment="Left" Margin="232,294,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="68,449,0,0" Text="FullName" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="54"  FontSize="30"/>
+        <TextBox x:ConnectionId='4' x:Name="txtFullname" HorizontalAlignment="Left" Margin="235,449,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="69,590,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="53"  FontSize="30"/>
+        <TextBox x:ConnectionId='5' x:Name="txtEmail" HorizontalAlignment="Left" Margin="236,589,0,0" Text="please enter username" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="57" Foreground="#FF8D8080" FontSize="30"/>
+        <Button x:ConnectionId='6' Content="Submit" Margin="237,714,0,0" VerticalAlignment="Top" Width="175" Height="52" FontSize="30"                    />
         <Button Content="reset" Margin="442,713,0,0" VerticalAlignment="Top" Width="145" Height="52" FontSize="30"/>
 
     </Grid>
